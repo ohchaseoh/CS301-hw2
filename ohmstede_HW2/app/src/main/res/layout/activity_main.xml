@@ -55,10 +55,10 @@
                             android:text="Red Value:" />
 
                         <TextView
-                            android:id="@+id/redVal"
+                            android:id="@+id/redView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="TextView" />
+                            android:text="0" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -88,10 +88,10 @@
                             android:text="Green Value:" />
 
                         <TextView
-                            android:id="@+id/greenVal"
+                            android:id="@+id/greenView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="TextView" />
+                            android:text="0" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -121,10 +121,10 @@
                             android:text="Blue Value:" />
 
                         <TextView
-                            android:id="@+id/blueVal"
+                            android:id="@+id/blueView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="TextView" />
+                            android:text="0" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -137,16 +137,15 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/modifiedTV"
+                    android:id="@+id/selectedTV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Last Modified:" />
 
                 <TextView
-                    android:id="@+id/modifiedVal"
+                    android:id="@+id/selectedVal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:layout_height="wrap_content" />
             </LinearLayout>
         </LinearLayout>
 
